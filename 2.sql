@@ -1,3 +1,4 @@
+-- Отобразить количество привлечённых средств для новостных компаний США
 SELECT funding_total
 FROM company
 WHERE category_code = 'news' 
